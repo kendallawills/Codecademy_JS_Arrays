@@ -85,3 +85,24 @@ console.log(list.slice(1, 4));
 // Index Of
 const pastaIndex = list.indexOf('pasta');
 console.log(pastaIndex);
+
+// Arrays and Functions
+
+const concept = ['arrays', 'can', 'be', 'mutated'];
+
+function changeArr(arr) {
+    arr[3] = 'MUTATED';
+}
+
+changeArr(concept);
+
+console.log(concept);
+
+function removeElement(newArr) {
+    newArr.pop();
+}
+
+console.log(removeElement(concept));
+
+removeElement(concept);
+console.log(concept);
