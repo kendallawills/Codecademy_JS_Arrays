@@ -58,3 +58,11 @@ const chores = ['wash dishes', 'do laundry', 'take out trash'];
 chores.push('sweep floors', 'clean stove');
 
 console.log(chores);
+
+// Pop Method
+
+const chore = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+
+chore.pop();
+
+console.log(chore);
