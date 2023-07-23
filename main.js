@@ -66,3 +66,22 @@ const chore = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mo
 chore.pop();
 
 console.log(chore);
+
+// More Array Methods
+
+// Shift Method
+const list = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+list.shift();
+console.log(list);
+
+// Unshift Method
+list.unshift('popcorn');
+console.log(list);
+
+// Slice Method
+console.log(list.slice(1, 4));
+
+// Index Of
+const pastaIndex = list.indexOf('pasta');
+console.log(pastaIndex);
